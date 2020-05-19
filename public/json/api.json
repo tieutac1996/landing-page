@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "name": "Ba Vì",
+      "description": "Đi đến Ba Vì có lẽ là hành trình đơn giản nhất trong danh sách, với khoảng cách chỉ 50 km, chuyến đi này hoàn toàn mang tính chất thư giãn.",
+      "image": "ba-vi.jpg"
+    },
+    {
+      "name": "Đồng Cao",
+      "description": "Đồng Cao là một địa điểm mới được dân du lịch bụi khám phá gần đây, nên chưa thể tiếp cận nếu đi du lịch theo tour kiểu truyền thống.",
+      "image": "dong-cao.jpg"
+    },
+    {
+      "name": "Háng Tề Chơ",
+      "description": "Xa hơn một chút bạn có thẻ lựa chọn cho mình địa điểm đó là Háng Tề Chơ. Nơi đây có thể nói là tuyệt vời nếu bạn đi phượt đến đây một lần.",
+      "image": "hang-te-cho.jpg"
+    },
+    {
+      "name": "Hồ Pa Khoang",
+      "description": "Hồ Pá Khoang nằm giữa một vùng thiên nhiên cảnh đẹp hùng vĩ, ẩn hiện trong mây trời non nước.",
+      "image": "ho-pa-khoang.jpg"
+    },
+    {
+      "name": "Mai Châu",
+      "description": "Cách Hà Nội khoảng 170km, Mai Châu là điểm du lịch văn hóa được du khách trong và ngoài nước đều mong muốn đến thăm.",
+      "image": "mai-chau.jpg"
+    },
+    {
+      "name": "Mộc Châu",
+      "description": "Mộc Châu là một địa danh đã trở nên khá quen thuộc với dân du lịch bụi, hàng năm ước tính có hàng triệu lượt người trẻ đổ về Mộc Châu để thăm quan. Với đường đi khá thuận lợi, nhiều điểm thăm quan lôi cuốn, Mộc Châu có sức hút lớn với dân phượt từ chuyên nghiệp đến không chuyên.",
+      "image": "moc-chau.jpg"
+    },
+    {
+      "name": "Mù Căng Chải",
+      "description": "Mù Cang Chải thuộc địa bàn một huyện vùng cao của tỉnh Yên Bái, cách Hà Nội chừng 300km về phía Tây Bắc. Đây là một điểm du lịch khá quen thuộc với giới trẻ, vẻ thơ mộng và hùng vĩ nơi đây có sức quyến rũ lạ kì đối với dân phượt.",
+      "image": "mu-cang-chai.jpg"
+    },
+    {
+      "name": "Sapa",
+      "description": "Sapa vẫn thường được gọi với cái tên yêu kiều “xứ sở sương mù”, đã không còn lạ lẫm trong mắt những người yêu du lịch. Nơi đây luôn mang nét hấp dẫn, ấn tượng riêng đến kỳ lạ, mà dù có đến bao nhiêu lần đi nữa vẫn còn điều để khám phá.",
+      "image": "sapa.jpg"
+    },
+    {
+      "name": "Tam Đảo",
+      "description": "Khu du lịch Tam Đảo nằm trên dãy núi Tam Đảo ở độ cao trên 900 m so với mực nước biển. Cách thủ đô Hà Nội khoảng 80 km bao gồm 50 km theo quốc lộ 2 và khoảng 24 km theo đường quốc lộ 2B trong đó có 13 km đường đèo.",
+      "image": "tam-dao.jpg"
+    },
+    {
+      "name": "Thác Bản Giốc",
+      "description": "Thác Bản Giốc được đánh giá là thác nước xuyên biên giới lớn thứ 2 trên thế giới, nằm giữa biên giới Việt – Trung, được chia thành thác chính và thác phụ và ngăn cách bởi cột mốc 53 theo công ước Pháp – Thanh từ năm 1887.",
+      "image": "thac-ban-gioc.jpg"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+.banner {
+  &_bg {
+    width: 100%;
+    height: 600px;
+
+    position: relative;
+    overflow: hidden;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &--title {
+
+        font-family: 'Pacifico';
+
+      position: absolute;
+      left: 50%;
+      top: 50%;
+
+      font-size: 50px;
+      color: white;
+        
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+      -o-transform: translate(-50%,-50%);
+}
+
+    &--container {
+      display: block;
+      height: inherit;
+
+      background-color: rgba(0, 0, 0, 0.5);
+
+      span {
+        display: block;
+
+        position: absolute;
+
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+        border: 2px solid #f0f0f0;
+        border-radius: 10%;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        -ms-border-radius: 10%;
+        -o-border-radius: 10%;
+      }
+      .spin_1 {
+        animation-name: spin_1;
+        animation-duration: 25s;
+
+        width: 300px;
+        height: 300px;
+        bottom: -150px;
+        left: 200px;
+      }
+      .spin_2 {
+        width: 200px;
+        height: 200px;
+
+        top: 0;
+        right: 200px;
+
+        animation-name: spin_2;
+        animation-duration: 10s;
+
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+      }
+    }
+  }
+}
+
+@keyframes spin_1 {
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes spin_2 {
+  100% {
+    transform: rotate(450deg);
+    -webkit-transform: rotate(450deg);
+    -moz-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -o-transform: rotate(450deg);
+  }
+}
