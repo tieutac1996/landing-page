@@ -20,7 +20,7 @@ function Main() {
     }
     fetchData();
   }, []);
-  return <div>{<TravelTour travel={travel}/>}</div>;
+  return <div>{<TravelTour travel={travel} />}</div>;
 }
 
 export default Main;

@@ -9,7 +9,9 @@ function App() {
     <div>
       <Header />
       <Banner />
-      <Main />
+      <div className="main">
+        <Main />
+      </div>
     </div>
   );
 }

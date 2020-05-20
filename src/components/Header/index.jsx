@@ -2,6 +2,7 @@ import React from "react";
 import Images from "constants/image";
 import "./index.scss";
 
+
 function Header() {
   return (
     <header>

@@ -1,0 +1,57 @@
+.travel {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+
+  margin: 50px 0;
+
+  &_items {
+    position: relative;
+    color: white;
+    &:hover &--description{
+        opacity: 1;
+    }
+    &--image {
+      width: auto;
+      max-width: 100%;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+
+    &--title {
+      position: absolute;
+      z-index: 9;
+      width: -webkit-fill-available;
+      height: 18%;
+
+      bottom: 4px;
+      left: 0;
+      padding: 0 15px;
+
+      font-family: "Pacifico";
+      font-size: 35px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    &--description {
+    position: absolute;
+    width: -webkit-fill-available;
+    font-size: 18px;
+    height: 81%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+  }
+}
