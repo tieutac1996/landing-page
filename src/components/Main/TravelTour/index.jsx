@@ -21,7 +21,7 @@ function TravelTour(props) {
             <img
               className="travel_items--image"
               src={`/src/assets/image/${travel.image}`}
-              alt="Demo"
+              alt={travel.image}
             />
             <div className="travel_items--title">{travel.name}</div>
           </div>

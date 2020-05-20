@@ -10,19 +10,23 @@ import TamDaoImage from "../assets/image/tam-dao.jpg";
 import ThacBanGiocImage from "../assets/image/thac-ban-gioc.jpg";
 import LogoImage from "../assets/image/logo.png";
 import BannerImage from "../assets/image/banner.jpg";
+import Banner_1Image from "../assets/image/banner_1.jpg";
 const Images = {
-  BA_VI: BaViImage,
-  DONG_CAO: DongCaoImage,
-  HANG_TE_CHO: HangTeChoImage,
-  HO_PA_KHOANG: HoPaKhoangImage,
-  MAI_CHAU: MaiChauImage,
-  MOC_CHAU: MocChauImage,
-  MU_CANG_CHAI: MuChangChaiImage,
-  SAPA: SapaImage,
-  TAM_DAO: TamDaoImage,
-  THAC_BAN_GIOC: ThacBanGiocImage,
+  IMAGE: [
+    { img: BaViImage },
+    { img: DongCaoImage },
+    { img: HangTeChoImage },
+    { img: HoPaKhoangImage },
+    { img: MaiChauImage },
+    { img: MocChauImage },
+    { img: MuChangChaiImage },
+    { img: SapaImage },
+    { img: TamDaoImage },
+    { img: ThacBanGiocImage },
+  ],
   LO_GO: LogoImage,
   BANNER: BannerImage,
+  BANNER_1: Banner_1Image,
 };
 
 export default Images;

@@ -1,16 +1,19 @@
-import React from "react";
 import Images from "constants/image";
+import React from "react";
+import { Link } from "react-router-dom";
 import "./index.scss";
-
 
 function Header() {
   return (
     <header>
-      <nav className="header">
-        <div>HOME</div>
-        <div><img className="header_img" src={Images.LO_GO} alt="logo"/></div>
-        <div>ABOUT US</div>
-      </nav>
+        <nav className="header">
+          <Link to="/">HOME</Link>
+          <a href="/">
+            <img className="header_img" src={Images.LO_GO} alt="logo" />
+          </a>
+          <Link to="/about-us">ABOUT US</Link>
+        </nav>
+
     </header>
   );
 }
