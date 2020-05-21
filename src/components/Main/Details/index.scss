@@ -1,0 +1,21 @@
+.Detail_items {
+  max-width: 1200px;
+  margin: 50px auto;
+  h1 {
+    font-size: 50px;
+    font-family: "Pacifico";
+  }
+  &--row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 100px;
+
+    div {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+  }
+}

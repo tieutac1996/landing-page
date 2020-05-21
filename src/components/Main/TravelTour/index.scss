@@ -1,19 +1,20 @@
 .travel {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5,400px);
+  grid-template-rows: repeat(5, 400px);
   grid-gap: 50px;
 
-  margin: 50px 0;
+  width: 1200px;
+  margin: 50px auto;
 
   &_items {
     position: relative;
     color: white;
-    &:hover &--description{
-        opacity: 1;
+    &:hover &--description {
+      opacity: 1;
     }
 
-    &--top{
+    &--top {
       height: 100%;
     }
 
@@ -38,27 +39,39 @@
       font-family: "Pacifico";
       font-size: 35px;
       background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      text-decoration: none;
     }
     &--description {
-    position: absolute;
-    width: -webkit-fill-available;
-    font-size: 18px;
-    height: 82%;
-    box-sizing: border-box;
-    border-bottom: 1px solid #ccc;
-    top: 0;
-    left: 0;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    opacity: 0;
-    transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-}
+      position: absolute;
+      z-index: 9;
+      width: -webkit-fill-available;
+      font-size: 18px;
+      height: 82%;
+
+      box-sizing: border-box;
+      border-bottom: 1px solid #ccc;
+      top: 0;
+      left: 0;
+      padding: 20px;
+
+      opacity: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+
+      transition: all 0.5s ease-in-out;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      
+      &--details {
+        -webkit-line-clamp: 9;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        line-height: 1.6;
+      }
+    }
 
   }
 }

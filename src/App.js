@@ -1,23 +1,32 @@
-import React from "react";
-import "./App.scss";
-import Header from "components/Header";
-import Banner from "components/Banner";
-import Main from "components/Main";
 import AboutUS from "components/AboutUs";
-import { BrowserRouter ,Switch ,Route } from "react-router-dom";
+import Footer from "components/Footer";
+import Header from "components/Header";
 import Home from "components/Home";
+import Main from "components/Main";
+import React from "react";
+import { Provider } from "react-redux";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "./App.scss";
+import store from "./redux/store";
+import ScrollToTop from "components/ScrollToTop";
 
 function App() {
   return (
-    <div>
+    <Provider store={store}>
       <BrowserRouter>
         <Header />
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about-us" component={AboutUS} />
+          <Route
+            path="/product"
+            component={(match) => <Main match={match} />}
+          />
         </Switch>
+        <Footer />
       </BrowserRouter>
-    </div>
+    </Provider>
   );
 }
 

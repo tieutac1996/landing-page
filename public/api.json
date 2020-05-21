@@ -2,54 +2,64 @@
   "data": [
     {
       "name": "Ba Vì",
-      "description": "Đi đến Ba Vì có lẽ là hành trình đơn giản nhất trong danh sách, với khoảng cách chỉ 50 km, chuyến đi này hoàn toàn mang tính chất thư giãn.",
-      "image": "ba-vi.jpg"
+      "description": "Đi đến Ba Vì có lẽ là hành trình đơn giản nhất trong danh sách, với khoảng cách chỉ 50 km, chuyến đi này hoàn toàn mang tính chất thư giãn. Không khí mát mẻ của Ba Vì sẽ đem lại cho bạn cảm giác thư thái nhất. Tại đây khách du lịch thường đến thăm đền thờ Bác Hồ, đền Thượng, khu nhà thờ cổ và các vườn phong lan. Ba Vì cũng thường được chọn làm nơi chụp ảnh cưới do có phong cảnh rất lãng mạn và gần với thiên nhiên. Bạn cũng nên kết hợp tham quan vườn quốc gia Ba Vì cùng với các khu du lịch dưới chân núi.",
+      "image": "ba-vi.jpg",
+      "slug": "ba-vi"
     },
     {
       "name": "Đồng Cao",
-      "description": "Đồng Cao là một địa điểm mới được dân du lịch bụi khám phá gần đây, nên chưa thể tiếp cận nếu đi du lịch theo tour kiểu truyền thống.",
-      "image": "dong-cao.jpg"
+      "description": "Đồng Cao là một địa điểm mới được dân du lịch bụi khám phá gần đây, nên chưa thể tiếp cận nếu đi du lịch theo tour kiểu truyền thống. Hiện tại mới chỉ có các nhóm du lịch bụi bằng xe máy là có thể đi đến cao nguyên này. Nằm cách Hà Nội khoảng 150 km và thuộc địa phận tỉnh Bắc Giang, quãng đường di chuyển tương đối khó đi và cần nhiều kỹ năng lái xe, bù lại bạn sẽ không thể nào quên khoảnh khắc đón ánh bình minh trên cao nguyên xanh mướt. Cắm trại, đốt lửa, ngắm sao và đón ánh bình mình là hoạt động được yêu thích nhất.",
+      "image": "dong-cao.jpg",
+      "slug": "dong-cao"
     },
     {
       "name": "Háng Tề Chơ",
-      "description": "Xa hơn một chút bạn có thẻ lựa chọn cho mình địa điểm đó là Háng Tề Chơ. Nơi đây có thể nói là tuyệt vời nếu bạn đi phượt đến đây một lần.",
-      "image": "hang-te-cho.jpg"
+      "description": "Xa hơn một chút bạn có thẻ lựa chọn cho mình địa điểm đó là Háng Tề Chơ. Nơi đây có thể nói là tuyệt vời nếu bạn đi phượt đến đây một lần. Háng Tề Chơ là tên của một bản làng người Mông thuộc xã Làng Nhì, huyện Trạm Tấu, tỉnh Yên Bái. Đây là một trong những cung đường được coi là tử địa với dân phượt mạo hiểm. Nơi đây quanh năm mây mù bao phủ và có lẽ cũng hiếm dấu chân người “ngoại bang” như bao bản làng khác nếu không có một con thác hùng vĩ và đầy huyền thoại: thác Háng Tề Chơ.",
+      "image": "hang-te-cho.jpg",
+      "slug": "hang-te-cho"
     },
     {
       "name": "Hồ Pa Khoang",
-      "description": "Hồ Pá Khoang nằm giữa một vùng thiên nhiên cảnh đẹp hùng vĩ, ẩn hiện trong mây trời non nước.",
-      "image": "ho-pa-khoang.jpg"
+      "description": "Hồ Pá Khoang nằm giữa một vùng thiên nhiên cảnh đẹp hùng vĩ, ẩn hiện trong mây trời non nước. Vào mùa đông sương mờ buông phủ tạo một phong cảnh huyền ảo, thấp thoáng nơi xa là những dãy núi trập trùng, những nếp nhà xinh xắn. Mùa hè không khí nơi đây thật dễ chịu với những luồng gió nam mát dịu. Tất cả tạo nên một khung cảnh êm đềm, thơ mộng, một thắng cảnh quyến rũ lòng người. Trong khu vực lòng hồ có các bản dân tộc Thái, Khơ Mú là những dân tộc còn giữ được những phong tục tập quán của các dân tộc vùng Tây Bắc. Nét đẹp văn hóa là điều khó bỏ qua khi đến đây.",
+      "image": "ho-pa-khoang.jpg",
+      "slug": "ho-pa-khoang"
     },
     {
       "name": "Mai Châu",
-      "description": "Cách Hà Nội khoảng 170km, Mai Châu là điểm du lịch văn hóa được du khách trong và ngoài nước đều mong muốn đến thăm.",
-      "image": "mai-chau.jpg"
+      "description": "Cách Hà Nội khoảng 170km, Mai Châu là điểm du lịch văn hóa được du khách trong và ngoài nước đều mong muốn đến thăm. Mai Châu hiện ra trong mắt khách du lịch là một thung lũng xinh tươi, ngút ngàn màu xanh đồng ruộng, ẩn hiện cùng những nếp nhà nằm nép mình trong dãy núi phủ kín mây mờ. Địa danh nổi tiếng nơi đây chính là bản Lác, với 100% người dân tộc Thái sinh sống. Mai Châu là một điểm đến cho những ai thích du lịch phong cảnh, du lịch nghỉ dưỡng, du lịch văn hóa. Một điểm đến đầy đủ những phong cách du lịch, đáp ứng mọi nhu cầu của nhiều đối tượng và sở thích khác nhau. Đây cũng là một điểm đến rất phù hợp với Sinh Viên, các bạn có thể tổ chức đốt lửa trại, team building, tổ chức các hoạt động xã hội giúp dân cư địa phương.",
+      "image": "mai-chau.jpg",
+      "slug": "mai-chau"
     },
     {
       "name": "Mộc Châu",
-      "description": "Mộc Châu là một địa danh đã trở nên khá quen thuộc với dân du lịch bụi, hàng năm ước tính có hàng triệu lượt người trẻ đổ về Mộc Châu để thăm quan. Với đường đi khá thuận lợi, nhiều điểm thăm quan lôi cuốn, Mộc Châu có sức hút lớn với dân phượt từ chuyên nghiệp đến không chuyên.",
-      "image": "moc-chau.jpg"
+      "description": "Mộc Châu là một địa danh đã trở nên khá quen thuộc với dân du lịch bụi, hàng năm ước tính có hàng triệu lượt người trẻ đổ về Mộc Châu để thăm quan. Với đường đi khá thuận lợi, nhiều điểm thăm quan lôi cuốn, Mộc Châu có sức hút lớn với dân phượt từ chuyên nghiệp đến không chuyên. Bạn đi xe máy từ Hà Nội chạy theo quốc lộ 6, nếu bạn là người ưa mạo hiểm và khám phá, bạn nên chọn đi đường 6 cũ. Đường này tuy đã xuống cấp và khá là khó đi, tuy nhiên cảnh lại rất đẹp. Có những con đường uốn lượn chạy theo sông Đà, bạn có thấy một số Thác nước đẹp, dừng chân bên hồ thủy điện Hòa Bình chơi. Đường 6 cũ cũng dẫn bạn qua nhiều bản làng người Mông, vào mùa xuân hoa Đào, Mận nở rất đẹp. Thời gian du lịch Mộc Châu nên đi là 3 ngày hoặc 2,5 ngày. Nếu đi 2,5 ngày thì ngày đầu ngủ Mai Châu, ngày thứ 2 khám phá Mộc Châu, ngày 3 kết hợp thăm quan một số điểm trên đường chạy về Hà Nội. ",
+      "image": "moc-chau.jpg",
+      "slug": "moc-chau"
     },
     {
       "name": "Mù Căng Chải",
-      "description": "Mù Cang Chải thuộc địa bàn một huyện vùng cao của tỉnh Yên Bái, cách Hà Nội chừng 300km về phía Tây Bắc. Đây là một điểm du lịch khá quen thuộc với giới trẻ, vẻ thơ mộng và hùng vĩ nơi đây có sức quyến rũ lạ kì đối với dân phượt.",
-      "image": "mu-cang-chai.jpg"
+      "description": "Mù Cang Chải thuộc địa bàn một huyện vùng cao của tỉnh Yên Bái, cách Hà Nội chừng 300km về phía Tây Bắc. Đây là một điểm du lịch khá quen thuộc với giới trẻ, vẻ thơ mộng và hùng vĩ nơi đây có sức quyến rũ lạ kì đối với dân phượt. Những năm gần đây, địa danh này ngày càng trở nên gần gũi và nổi tiếng hơn không chỉ với khách du lịch “bụi” trong nước mà cả với du khách nước ngoài. Quốc lộ 32 chạy dọc theo những sườn núi hun hút gió, con suối đỏ ngầu cuộn chảy, chạy qua đồi thông và những thửa ruộng bậc thang tầng tầng lớp lớp, ngút ngàn lên tận lưng chừng trời. Thị trấn Mù Căng Chải nhỏ xinh nằm gọn giữa hai sườn núi, còn khá nghèo nàn. Sự hùng vĩ của núi rừng, cảnh đẹp cũng những cánh đồng lúa bạt ngàn ở thung lũng Mường Lò (Nghĩa Lộ), mùi thơm ngào ngạt của nếp Tú Lệ và sự kỳ vĩ của những kiệt tác ruộng bậc thang tại Mù Cang Chải sẽ là những trải nghiệm thú vị mà bạn khó có thể quên.",
+      "image": "mu-cang-chai.jpg",
+      "slug": "mu-cang-chai"
     },
     {
       "name": "Sapa",
-      "description": "Sapa vẫn thường được gọi với cái tên yêu kiều “xứ sở sương mù”, đã không còn lạ lẫm trong mắt những người yêu du lịch. Nơi đây luôn mang nét hấp dẫn, ấn tượng riêng đến kỳ lạ, mà dù có đến bao nhiêu lần đi nữa vẫn còn điều để khám phá.",
-      "image": "sapa.jpg"
+      "description": "Sapa vẫn thường được gọi với cái tên yêu kiều “xứ sở sương mù”, đã không còn lạ lẫm trong mắt những người yêu du lịch. Nơi đây luôn mang nét hấp dẫn, ấn tượng riêng đến kỳ lạ, mà dù có đến bao nhiêu lần đi nữa vẫn còn điều để khám phá. Sa Pa hôm nay có thể không còn nguyên sơ, tĩnh lặng như trước đây nhưng vẫn đủ sức đưa những trái tim thị thành tìm về một thoáng bình yên sau những ồn ào, tấp nập của phố thị. Về Sa Pa đúng độ lúa chín lại càng khó lòng cưỡng lại trước vẻ đẹp rực rỡ, hùng vĩ, ngút ngàn tầm mắt của những thửa ruộng bậc thang. Từ trung tâm thị trấn Sa Pa đi các ngả Tả Phìn, Tả Van, Trung Chải,... đâu đâu cũng ngạt ngào hương lúa chín.",
+      "image": "sapa.jpg",
+      "slug": "sapa"
     },
     {
       "name": "Tam Đảo",
-      "description": "Khu du lịch Tam Đảo nằm trên dãy núi Tam Đảo ở độ cao trên 900 m so với mực nước biển. Cách thủ đô Hà Nội khoảng 80 km bao gồm 50 km theo quốc lộ 2 và khoảng 24 km theo đường quốc lộ 2B trong đó có 13 km đường đèo.",
-      "image": "tam-dao.jpg"
+      "description": "Khu du lịch Tam Đảo nằm trên dãy núi Tam Đảo ở độ cao trên 900 m so với mực nước biển. Cách thủ đô Hà Nội khoảng 80 km bao gồm 50 km theo quốc lộ 2 và khoảng 24 km theo đường quốc lộ 2B trong đó có 13 km đường đèo. Nằm ở phía Bắc huyện Tam Đảo, khu du lịch Tam Đảo được bao bọc bởi rừng nguyên sinh Quốc gia Tam Đảo, có khí hậu trong sạch, mát mẻ, nhiệt độ trung bình trong năm khoảng 18°C. Là điều kiện rất thuận lợi để phát triển các loại hình du lịch nghỉ dưỡng, du lịch sinh thái… Từ lâu Tam Đảo đã là khu nghỉ mát nổi tiếng trong nước, mỗi năm đón hàng trăm ngàn lượt khách trong nước và ngoài nước đến tham quan, nghỉ dưỡng, nghiên cứu....",
+      "image": "tam-dao.jpg",
+      "slug": "tam-dao"
     },
     {
       "name": "Thác Bản Giốc",
-      "description": "Thác Bản Giốc được đánh giá là thác nước xuyên biên giới lớn thứ 2 trên thế giới, nằm giữa biên giới Việt – Trung, được chia thành thác chính và thác phụ và ngăn cách bởi cột mốc 53 theo công ước Pháp – Thanh từ năm 1887.",
-      "image": "thac-ban-gioc.jpg"
+      "description": "Thác Bản Giốc được đánh giá là thác nước xuyên biên giới lớn thứ 2 trên thế giới, nằm giữa biên giới Việt – Trung, được chia thành thác chính và thác phụ và ngăn cách bởi cột mốc 53 theo công ước Pháp – Thanh từ năm 1887. Hiện nay, toàn bộ phần thác phụ thuộc về lãnh thổ Việt Nam và thuộc địa phận xã Ðàm Thủy, huyện Trùng Khánh, Cao Bằng. Còn phần thác chính thì được chia đôi. Tháng 8 là thời điểm du lịch thác Bản Giốc thích hợp và tuyệt vời nhất. Bởi đây là lúc thác hùng vĩ và đẹp nhất, đứng từ trên cao nhìn xuống còn có thể thấy cầu vồng. ",
+      "image": "thac-ban-gioc.jpg",
+      "slug": "thac-ban-gioc"
     }
   ],
-  "about" : ""
+  "about": ""
 }

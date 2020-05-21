@@ -1,0 +1,27 @@
+.footer {
+  background-image: url("../../assets//image/footer.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+  height: 250px;
+  position: relative;
+
+  &_title {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 100%;
+
+    font-size: 30px;
+    font-family: 'Pacifico';
+    text-align: center;
+    font-style: italic;
+
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+}

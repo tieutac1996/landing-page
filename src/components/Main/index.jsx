@@ -1,26 +1,26 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { useSelector } from "react-redux";
+import { Route, Switch } from "react-router-dom";
+import Details from "./Details";
 import TravelTour from "./TravelTour";
+function Main(props) {
+  const { match } = props;
 
-function Main() {
-  const [travel, setTravel] = useState([]);
-
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const requestUrl = "./api.json";
-        const response = await fetch(requestUrl);
-        const responseJSON = await response.json();
-
-        const { data } = responseJSON;
-        console.log(responseJSON);
-        setTravel(data);
-      } catch (error) {
-        console.log(error);
-      }
-    }
-    fetchData();
-  }, []);
-  return <div>{<TravelTour travel={travel} />}</div>;
+  const travel = useSelector((state) => state.data);
+  
+  return (
+    <div>
+      <Switch>
+        <Route
+          path="/product"
+          exact
+          component={() => <TravelTour travel={travel} match={match} />}
+        />
+        <Route path="/product/:slug" component={Details} travel={travel}/>
+        <Route component={() => <TravelTour travel={travel} match={match} />} />
+      </Switch>
+    </div>
+  );
 }
 
 export default Main;

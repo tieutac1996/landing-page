@@ -18,7 +18,7 @@ function Gallery(props) {
       <div className="about_gallery">
         {gallery.map((e, x) => (
           <div key={x}>
-            <img src={e.img} alt="" />
+            <img src={`/image/${e.image}`} alt="" />
           </div>
         ))}
       </div>

@@ -1,6 +1,6 @@
-import React from "react";
 import PropTypes from "prop-types";
-import Images from "constants/image";
+import React from "react";
+import { Link } from "react-router-dom";
 import "./index.scss";
 
 TravelTour.propTypes = {
@@ -13,23 +13,28 @@ TravelTour.defaultProps = {
 
 function TravelTour(props) {
   const { travel } = props;
-  return (
-    <div className="travel">
-      {travel.map((travel, x) => (
-        <div className="travel_items" key={x}>
-          <div className="travel_items--top">
-            <img
-              className="travel_items--image"
-              src={`/src/assets/image/${travel.image}`}
-              alt={travel.image}
-            />
-            <div className="travel_items--title">{travel.name}</div>
-          </div>
-          <div className="travel_items--description">{travel.description}</div>
+
+  let result = travel.map((travel, x) => {
+    return (
+      <div className="travel_items" key={x}>
+        <div className="travel_items--top">
+          <img
+            className="travel_items--image"
+            src={`/image/${travel.image}`}
+            alt={travel.image}
+          />
+          <Link className="travel_items--title" to={`/product/${travel.slug}`}>
+            {travel.name}
+          </Link>
         </div>
-      ))}
-    </div>
-  );
+        <div className="travel_items--description">
+          <div className="travel_items--description--details">{travel.description}</div>
+        </div>
+      </div>
+    );
+  });
+
+  return <div className="travel">{result}</div>;
 }
 
 export default TravelTour;

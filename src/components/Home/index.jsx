@@ -3,13 +3,11 @@ import Banner from "components/Banner";
 import Main from "components/Main";
 import Images from "constants/image";
 
-function Home(props) {
+function Home() {
   return (
     <div>
-      <Banner title="Discover travel moments" imageUrl={Images.BANNER}/>
-      <div className="main">
-        <Main />
-      </div>
+      <Banner title="Discover travel moments" imageUrl={Images.BANNER} />
+      <Main />
     </div>
   );
 }

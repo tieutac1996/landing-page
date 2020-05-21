@@ -16,7 +16,7 @@ function AboutDetails(props) {
     <div className="about_items">
       {order.check ? (
         <div>
-          <img src={order.image} className="about_items--image" />
+          <img src={order.image} alt="" className="about_items--image" />
         </div>
       ) : (
         ""
@@ -27,7 +27,7 @@ function AboutDetails(props) {
       </div>
       {!order.check ? (
         <div>
-          <img src={order.image} className="about_items--image" />
+          <img src={order.image} alt="" className="about_items--image" />
         </div>
       ) : (
         ""
