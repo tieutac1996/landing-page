@@ -2,10 +2,22 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
-  
-  &--description{
-      font-size: 18px;
-      line-height: 1.5;
+
+  &--description {
+    font-size: 18px;
+    line-height: 1.5;
   }
 }
 
+@media screen and (max-width:720px) {
+  .about_items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+
+    &--description {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+  }
+}
